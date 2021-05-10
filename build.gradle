@@ -22,6 +22,9 @@ dependencies {
 	compile 'org.springframework.boot:spring-boot-starter-data-jpa'
 	runtimeOnly 'mysql:mysql-connector-java'
 	compile 'org.springframework.boot:spring-boot-starter-mustache'
+	compile 'org.springframework.boot:spring-boot-starter-oauth2-client'
+	testCompile 'org.springframework.security:spring-security-test'
+	compile 'org.springframework.session:spring-session-jdbc'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
