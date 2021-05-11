@@ -4,12 +4,13 @@
 ## 사용 기술
 
 - Java 11 (openjdk: https://jdk.java.net/archive/)
-- Spring Boot '2.1.7.RELEASE'
+- Spring Boot '2.4.5.RELEASE'
 - Spring Security
 - Spring Data JPA
 - Mustache (화면 구성)
 - Ajax (CRUD 동작)
 - MySQL
+- 부트스트랩
 
 <br/>
 <br/>
