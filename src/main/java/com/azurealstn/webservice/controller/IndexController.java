@@ -53,7 +53,7 @@ public class IndexController {
     }
 
     @GetMapping("/posts/search")
-    public String search(String keyword, Model model, @PageableDefault(size = 10, sort = "id", direction = Sort.Direction.DESC) Pageable pageable) {
+    public String search(String keyword, Model model) {
         List<Posts> searchList = postsService.search(keyword);
         model.addAttribute("searchList", searchList);
         return "posts-search";

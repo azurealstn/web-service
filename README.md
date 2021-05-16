@@ -27,7 +27,6 @@
     - **USER** 권한을 가진 사람만 글 등록 허용 (Default: **GUEST**)
         - **USER 권한 주기**: update user set 'USER';
 - JPA Auditing으로 생성시간/수정시간 자동화
-- 메인화면 페이징
 - 검색 (JPA 활용)
 
 <br/>

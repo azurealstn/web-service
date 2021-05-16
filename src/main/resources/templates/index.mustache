@@ -46,15 +46,6 @@
             </tbody>
         </table>
 
-        <ul class="pagination justify-content-center">
-            <li class="page-item"><a class="page-link" href="?page={{previous}}">Previous</a></li>
-            {{#check}}
-                <li class="page-item"><a class="page-link" href="?page={{next}}">Next</a></li>
-            {{/check}}
-            {{^check}}
-                <li class="page-item disabled"><a class="page-link" href="?page={{next}}">Next</a></li>
-            {{/check}}
-        </ul>
     </div>
 
 {{>layout/footer}}
